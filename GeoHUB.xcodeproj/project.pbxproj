@@ -11,6 +11,8 @@
 		373A276127BE4D1800721CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373A276027BE4D1800721CC2 /* ContentView.swift */; };
 		373A276327BE4D1B00721CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373A276227BE4D1B00721CC2 /* Assets.xcassets */; };
 		373A276627BE4D1B00721CC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373A276527BE4D1B00721CC2 /* Preview Assets.xcassets */; };
+		373A276D27BE4EC800721CC2 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373A276C27BE4EC800721CC2 /* ContentViewModel.swift */; };
+		373A276F27BF91A200721CC2 /* GeoDataHubModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373A276E27BF91A200721CC2 /* GeoDataHubModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		373A276027BE4D1800721CC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		373A276227BE4D1B00721CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		373A276527BE4D1B00721CC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		373A276C27BE4EC800721CC2 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		373A276E27BF91A200721CC2 /* GeoDataHubModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDataHubModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				373A275E27BE4D1800721CC2 /* GeoHUBApp.swift */,
 				373A276027BE4D1800721CC2 /* ContentView.swift */,
+				373A276C27BE4EC800721CC2 /* ContentViewModel.swift */,
+				373A276E27BF91A200721CC2 /* GeoDataHubModels.swift */,
 				373A276227BE4D1B00721CC2 /* Assets.xcassets */,
 				373A276427BE4D1B00721CC2 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				373A276127BE4D1800721CC2 /* ContentView.swift in Sources */,
+				373A276F27BF91A200721CC2 /* GeoDataHubModels.swift in Sources */,
 				373A275F27BE4D1800721CC2 /* GeoHUBApp.swift in Sources */,
+				373A276D27BE4EC800721CC2 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
